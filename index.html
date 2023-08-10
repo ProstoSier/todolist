@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Todo List</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header__container header">
+            <div class="menu__icon">
+                <span></span>
+            </div>
+            <div class="header__logo">
+                <a href="#" class="header__logo-link">Chores</a> 
+            </div>
+        </header>
+        <main class="main__container main">
+            <div class="main__input">
+                <input class="input" type="text" placeholder="Add item">
+                <button class="main__btn">+</button>
+            </div>
+            <section class="main__chores chores">
+                <div class="chores__todo todo">
+                    <h1 class="todo__title titles">To do</h1>
+                    <ul class="todo__list list">
+                    </ul>
+                </div>
+                <div class="chores__completed completed">
+                    <h2 class="completed__title titles">completed</h2>
+                    <ul class="completed__list list">
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
