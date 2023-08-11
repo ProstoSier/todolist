@@ -1,3 +1,4 @@
+
 const btnAddChores = document.querySelector('.main__btn');
 const input = document.querySelector('.input');
 const todoList = document.querySelector('.todo__list');
@@ -20,8 +21,16 @@ btnAddChores.addEventListener('click', () => {
             btn.disabled = true;
         });
     }
-     
-});
+})
+
+
+
+
+
+
+
+
+
 
 
 
